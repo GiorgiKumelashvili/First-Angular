@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+	font-family	: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	box-sizing	: border-box;
+	padding		: 0;
+	margin		: 0;
+
+	/* Other browsers */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.d-flex {
+	display: flex;
+}
+.j-c-c {
+	justify-content: center;
+}
+.a-i-c {
+	align-items: center;
+}
+
+.todo_done {
+	text-decoration : line-through
+}
